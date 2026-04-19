@@ -2,13 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>JS Bin</title>
-</head>
-<body>
-<!DOCTYPE html>
-<html>
-<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ghostclick</title>
 
   <style>
@@ -32,7 +26,6 @@
     h1 {
       margin-bottom: 5px;
       font-size: 32px;
-      letter-spacing: 1px;
     }
 
     .tagline {
@@ -40,15 +33,18 @@
       margin-bottom: 20px;
     }
 
-    button {
+    .btn {
+      display: inline-block;
       padding: 14px 22px;
       font-size: 15px;
       border: 1px solid #222;
       background: #f0f0f0;
       cursor: pointer;
+      text-decoration: none;
+      color: black;
     }
 
-    button:hover {
+    .btn:hover {
       background: #e2e2e2;
     }
 
@@ -74,19 +70,20 @@
 <div class="container">
 
   <h1>GhostClick</h1>
-  <div class="tagline">The auto clicker for you.</div>
+  <div class="tagline">the auto clicker for you</div>
 
-  <a href="auto_clicker_v1_4.zip" download>
-    <button>download latest version</button>
+  <!-- IMPORTANT: make sure this file actually exists in repo -->
+  <a class="btn" href="auto_clicker_v1_4.zip" download>
+    download latest version
   </a>
 
   <div class="section">
-    <strong>Description:</strong><br>
-    GhostClick is a simple automation tool designed for repetitive clicking tasks in a lightweight browser-friendly format.
+    <strong>description:</strong><br>
+    ghostclick is a simple automation tool for repetitive clicking tasks.
   </div>
 
   <div class="section">
-    <strong>Features:</strong>
+    <strong>features:</strong>
     <ul>
       <li>fast click automation</li>
       <li>simple interface</li>
@@ -95,19 +92,16 @@
   </div>
 
   <div class="section">
-    <strong>Credits:</strong><br>
-    Made by: @W1NRZ<br>
-    project: GhostClick_V1_<br>
-    hosted via github pages
+    <strong>credits:</strong><br>
+    made by: @W1NRZ<br>
+    project: ghostclick_v1_
   </div>
 
   <div class="footer">
-    © ghostclick • all rights reserved
+    © ghostclick
   </div>
 
 </div>
 
-</body>
-</html>
 </body>
 </html>
