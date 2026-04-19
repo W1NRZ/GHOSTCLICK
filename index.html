@@ -1,15 +1,15 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ghostclick</title>
-
   <style>
     body {
       font-family: Arial, sans-serif;
       text-align: center;
-      margin-top: 80px;
+      margin: 0;
+      padding: 80px 16px;
       background: #f5f5f5;
       color: #111;
     }
@@ -20,17 +20,18 @@
       background: white;
       border: 1px solid #ddd;
       padding: 30px;
-      border-radius: 6px;
+      border-radius: 8px;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.05);
     }
 
     h1 {
-      margin-bottom: 5px;
+      margin: 0 0 8px;
       font-size: 32px;
     }
 
     .tagline {
       color: #555;
-      margin-bottom: 20px;
+      margin-bottom: 24px;
     }
 
     .btn {
@@ -42,6 +43,7 @@
       cursor: pointer;
       text-decoration: none;
       color: black;
+      border-radius: 6px;
     }
 
     .btn:hover {
@@ -62,46 +64,45 @@
       border-top: 1px solid #eee;
       padding-top: 10px;
     }
+
+    ul {
+      margin: 10px 0 0 18px;
+      padding: 0;
+    }
   </style>
 </head>
-
 <body>
+  <div class="container">
+    <h1>GhostClick</h1>
+    <div class="tagline">the auto clicker for you</div>
 
-<div class="container">
+    <a class="btn" href="./GhostClick_v1_.zip" download>
+      download latest version
+    </a>
 
-  <h1>GhostClick</h1>
-  <div class="tagline">the auto clicker for you</div>
+    <div class="section">
+      <strong>description:</strong><br>
+      ghostclick is a simple automation tool designed for repetitive clicking tasks.
+    </div>
 
-  <!-- IMPORTANT: make sure this file actually exists in repo -->
-  <a class="btn" href="auto_clicker_v1_4.zip" download>
-    download latest version
-  </a>
+    <div class="section">
+      <strong>features:</strong>
+      <ul>
+        <li>fast click automation</li>
+        <li>simple interface</li>
+        <li>low resource usage</li>
+      </ul>
+    </div>
 
-  <div class="section">
-    <strong>description:</strong><br>
-    ghostclick is a simple automation tool for repetitive clicking tasks.
+    <div class="section">
+      <strong>credits:</strong><br>
+      made by: @w1nrz<br>
+      project: ghostclick_v1_
+    </div>
+
+    <div class="footer">
+      © ghostclick
+    </div>
   </div>
-
-  <div class="section">
-    <strong>features:</strong>
-    <ul>
-      <li>fast click automation</li>
-      <li>simple interface</li>
-      <li>low resource usage</li>
-    </ul>
-  </div>
-
-  <div class="section">
-    <strong>credits:</strong><br>
-    made by: @W1NRZ<br>
-    project: ghostclick_v1_
-  </div>
-
-  <div class="footer">
-    © ghostclick
-  </div>
-
-</div>
-
 </body>
 </html>
